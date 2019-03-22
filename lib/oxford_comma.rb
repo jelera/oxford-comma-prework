@@ -4,8 +4,8 @@ def oxford_comma(arr)
   # elsif arr.size == 2
   #   arr.join(" and ")
   # elsif arr.size >= 3
-  #   
-  #   
+  #
+  #
   # end
 
   case arr.size
