@@ -17,9 +17,9 @@ def oxford_comma(arr)
     output = ""
     arr.each_with_index do |word, i|
       if i < arr.length - 1
-        output << "#{word}, "
+        output += "#{word}, "
       else
-        output << "and #{word}"
+        output += "and #{word}"
       end
     end
   end
